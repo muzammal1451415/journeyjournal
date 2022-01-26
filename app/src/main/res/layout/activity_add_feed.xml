@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".AddFeed">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            >
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_back"
+                android:onClick="onClickBack"
+                android:layout_centerVertical="true"
+                android:tint="@color/color_black"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Feed"
+                android:layout_centerInParent="true"
+                android:textSize="22sp"
+                android:textColor="@color/color_black"
+                android:textStyle="bold"></TextView>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/iv_feed_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/image_add"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:scaleType="fitXY"
+            android:onClick="onClickImage"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/ll_edit_layout"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:maxLines="1"
+                android:hint="Enter title"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/edit_text_round_background"></EditText>
+            <EditText
+                android:id="@+id/edit_text_description"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:hint="Enter description"
+                android:padding="@dimen/_10sdp"
+                android:gravity="top"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/edit_text_round_background"></EditText>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:src="@drawable/map"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+
+                ></ImageView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:onClick="onClickSave"
+            android:text="Save"></Button>
+    </LinearLayout>
+
+</ScrollView>

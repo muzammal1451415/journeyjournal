@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "872246476963",
+    "project_id": "freelance-117",
+    "storage_bucket": "freelance-117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872246476963:android:f33e7298b1df9eb88cbf16",
+        "android_client_info": {
+          "package_name": "com.smart.id.journeyjournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872246476963-6haodfeqllijhlidpa9u356llvqu9at3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smart.id.journeyjournal",
+            "certificate_hash": "d7d90f2c79df7348cd29bbe8a7157e47af5bce69"
+          }
+        },
+        {
+          "client_id": "872246476963-c9glijstjigvrnuc2j5uu498gu4iag21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv5U7PzT9lWSc8VVEj6r-XBU7GdEcW2Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872246476963-c9glijstjigvrnuc2j5uu498gu4iag21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
